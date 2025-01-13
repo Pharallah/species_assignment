@@ -1,13 +1,8 @@
 #!/usr/bin/env python3
 
-# Standard library imports
-
-# Remote library imports
-from flask import request, make_response
+from flask import  make_response
 from flask_restful import Resource
-
-# Local imports
-from config import app, db, api
+from config import app, api
 from native_species import species
 
 class Species(Resource):
