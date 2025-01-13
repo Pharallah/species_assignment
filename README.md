@@ -10,7 +10,7 @@ Directions: Ama Earth Group is excited to see your creativity and technical skil
 
   1. Fork & clone this repo in your local computer
   2. Open project in a code editor like VSCode
-  3. Open terminal within the code editor and change directory into the project's 'server'
+  3. Open terminal within the code editor and change directory into the project's 'server' folder.
   4. Run 'python app.py' to start the server.
   5. Once the server is running, open Postman app.
   6. Copy the URL address where the server is running (this is found in the terminal) & paste into Postman.
