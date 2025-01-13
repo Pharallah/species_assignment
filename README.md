@@ -14,5 +14,5 @@ Directions: Ama Earth Group is excited to see your creativity and technical skil
   4. Run 'python app.py' to start the server.
   5. Once the server is running, open Postman app.
   6. Copy the URL address where the server is running (this is found in the terminal) & paste into Postman.
-  7. Make sure the request is set to GET before clicking 'Send'
-  8. If done correctly, the JSON of the species list should appear in Postman.
+  7. Before clicking 'Send', make sure you add the '/species' URL endpoint in Postman.
+  8. If done correctly, hitting 'Send' should show the JSON of the species list.
