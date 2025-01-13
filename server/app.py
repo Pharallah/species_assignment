@@ -3,19 +3,26 @@
 # Standard library imports
 
 # Remote library imports
-from flask import request
+from flask import request, make_response
 from flask_restful import Resource
 
 # Local imports
 from config import app, db, api
-# Add your model imports
+from native_species import species
 
+class Species(Resource):
+    def get(self):
+        animals = [animal for animal in species()]
 
-# Views go here!
+        if animals:
+            response = make_response(
+                animals, 
+                200
+                )
+            
+            return response
 
-@app.route('/')
-def index():
-    return '<h1>Project Server</h1>'
+api.add_resource(Species, '/species')
 
 
 if __name__ == '__main__':
