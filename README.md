@@ -5,14 +5,10 @@ Directions: Ama Earth Group is excited to see your creativity and technical skil
 
 ## Instructions: Testing The API
 
-  You will need Postman to test the API.
-  If you don't have it downloaded already, you can do so here: https://www.postman.com/downloads/
-
   1. Fork & clone this repo in your local computer
   2. Open project in a code editor like VSCode
   3. Open terminal within the code editor and change directory into the project's 'server' folder.
   4. Run 'python app.py' to start the server.
-  5. Once the server is running, open Postman app.
-  6. Copy the URL address where the server is running (this is found in the terminal) & paste into Postman.
-  7. Before clicking 'Send', make sure you add the '/species' URL endpoint in Postman.
-  8. If done correctly, hitting 'Send' should show the JSON of the species list.
+  5. Copy the localhost URL address where the server is running and paste it in your browser.
+  6. Before hitting Enter, append '/species' into the URL.
+  7. Navigating to this URL should show the list of species.
